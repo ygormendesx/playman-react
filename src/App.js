@@ -2,33 +2,31 @@ import React from 'react';
 import './App.css';
 import HeaderIndex from './components/HeaderIndex';
 import Footer from './components/Footer';
-import About from './About'
-import ProjectMountain from './ProjectMountain';
-import Contact from './Contact';
+import About from './pages/about/About';
+import ProjectMountain from './pages/projects/ProjectMountain';
+import ProjectSeC from './pages/projects/ProjectSeC';
+import Contact from './pages/contato/Contact';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from './pages/homepage';
+import { URL } from './config';
 
 
 function App() {
-  return (
-    <div className="App">
-        <HeaderIndex/>
-
-        <div class="flex-container">
-            <div class="container-menu">
-                <div class="container-about" id="c-menu">
-                    <a href="#"><p>About the<br></br>Artist</p></a>
-                </div>
-                <div class="container-projects" id="c-menu">
-                    <a href="#"><p>Projects</p></a>
-                </div>
-                <div class="container-contact" id="c-menu">
-                    <a href="#"><p>Contact</p></a>
-                </div>
+    return (
+        <BrowserRouter>
+            <div className="App">
+                <HeaderIndex />
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/projectsec" element={<ProjectSeC />} />
+                    <Route path="/projectmountain" element={<ProjectMountain />} />
+                    <Route path="/contato" element={<Contact />} />
+                </Routes>
+                <Footer />
             </div>
-        </div>
-
-        <Footer/>
-    </div>
-  );
+        </BrowserRouter>
+    );
 }
 
 export default App;
