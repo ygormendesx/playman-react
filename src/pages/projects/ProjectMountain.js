@@ -1,5 +1,6 @@
 import '../../App.css';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Meteoro from '../../images/meteoro.png';
 import Formation1 from '../../images/formation/1.png';
 import Formation2 from '../../images/formation/2.png';
@@ -54,8 +55,8 @@ function ProjectMountain() {
         
         <div className="flex-container-st d-flex justify-content-center align-items-center">
                 <ul className="list-submenu d-flex justify-content-between">                    
-                    <li><a href="/projectsec">Solve et Coagula&emsp;&emsp;&emsp;</a></li>
-                    <li><a href="/projectmountain">Holy Mountain</a></li>            
+                    <li><Link to="/projectsec">Solve et Coagula&emsp;&emsp;&emsp;</Link></li>
+                    <li><Link to="/projectmountain">Holy Mountain</Link></li>            
                 </ul>
         </div>
         
@@ -67,7 +68,7 @@ function ProjectMountain() {
                 <div className="name-title d-flex">
                     <p>Holy Mountain</p>
                 </div>
-                <div className="desc-project">&emsp;Mountains throughout human history have taken on deep meanings. Coated with immense sacredness by all peoples in the most different places. Being them as a representation of God himself or being the object of worship. For many the mountains were the very abode of the Gods.They are in the collective unconscious as the ability to connect men and gods, through the flow of energy between earth and heaven.
+                <div className="desc-project">&emsp;Mountains throughout human history have taken on deep meanings. Coated with immense sacredness by all peoples in the most different places. Being them as a representation of God himself or being the object of worship. For many the mountains were the very abode of the Gods. They are in the collective unconscious as the ability to connect men and gods, through the flow of energy between earth and heaven.
                 <br/>
                 &emsp;The symbology is very strong. It unconsciously reminds us of the process of encounter between the loneliness of the earth and the hope of the sky, between the fog that blinds and the cloud that supports, between the abyss of the ground and the proximity of the stars. All this is very charming and fascinating.
                 <br/>
@@ -78,9 +79,19 @@ function ProjectMountain() {
 
         <div className="flex-container-features d-flex flex-column align-self-center align-items-center">
             <div className="desc-feature d-flex">
-                <p>&emsp;In generative art it couldn't be different, going through all the learning, from its fundamentals, to all the countless hours of tests, to countless moments of problem solving and research and more research. This whole process is without a doubt like climbing a mountain.Thinking about the project is exactly like looking at a mountain and imagining how exhausting it will be all the way to conquer it. Finishing your work is like breathing a sigh of relief, looking down and seeing how hard it was to get there, but at the same time looking ahead and realizing how rewarding it was to be able to have that vision and breathe the refreshing breeze of the moment.
+                <p>&emsp;In generative art it couldn't be different, going through all the learning, from its fundamentals, to all the countless hours of tests, to countless moments of problem solving and research and more research. This whole process is without a doubt like climbing a mountain. Thinking about the project is exactly like looking at a mountain and imagining how exhausting it will be all the way to conquer it. Finishing your work is like breathing a sigh of relief, looking down and seeing how hard it was to get there, but at the same time looking ahead and realizing how rewarding it was to be able to have that vision and breathe the refreshing breeze of the moment.
                 <br/>
-                &emsp;After going through a transformation on my first work, through which I transmuted my artistic essence from illustration to generative art. I pored over my second work and now, after months of climbing this mountain of mine, I deliver to you.</p>
+                &emsp;After going through a transformation in my first work, where I transmuted my artistic essence from illustration to generative art. Now I come to this second work that I delved into, and after months of climbing this mountain of mine, I give it to you.</p>
+            </div>
+
+            <div className='d-flex flex-row align-items-center data-project-m justify-content-end'>
+                    <div className="title-sup-m d-flex">
+                    <a target="_blank">View Project (comming soon) </a>
+                    </div>
+                    <div className="title-sup-m d-flex flex-column">
+                        <p>Supply: 180ed</p>
+                    </div>
+
             </div>
 
             <div className="title-var d-flex">
@@ -132,12 +143,11 @@ function ProjectMountain() {
                 <img src={GreyishBlue} alt="image color18"/>
             </div>
 
+            <div className="title-var d-flex">
+                <p>■ ■ ■  ELEMENTS ■ ■ ■</p>
+            </div>
             <div className="title-feature">
                 <p>Comet</p>
-            </div>
-            <div className="desc-feature">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel leo id ligula gravida faucibus. Duis pulvinar rhoncus pretium.
-                    Nullam at dolor sit amet mi ultrices scelerisque. Sed eget libero.</p>
             </div>
             <div className="img-feature1 d-flex flex-row flex-wrap justify-content-around justify-content-sm-around justify-content-md-around justify-content-lg-around justify-content-xl-between">
                 <img src={Comet1} alt="comet1"/>
@@ -148,10 +158,6 @@ function ProjectMountain() {
             <div className="title-feature">
                 <p>Fog</p>
             </div>
-            <div className="desc-feature">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel leo id ligula gravida faucibus. Duis pulvinar rhoncus pretium.
-                    Nullam at dolor sit amet mi ultrices scelerisque. Sed eget libero.</p>
-            </div>
             <div className="img-feature1 d-flex flex-row flex-wrap justify-content-around justify-content-sm-around justify-content-md-around justify-content-lg-around justify-content-xl-between">
                 <img src={Fog1} alt="fog1"/>
                 <img src={Fog2} alt="fog2"/>
@@ -161,10 +167,6 @@ function ProjectMountain() {
             <div className="title-feature">
                 <p>Moon</p>
             </div>
-            <div className="desc-feature">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel leo id ligula gravida faucibus. Duis pulvinar rhoncus pretium.
-                    Nullam at dolor sit amet mi ultrices scelerisque. Sed eget libero.</p>
-            </div>
             <div className="img-feature1 d-flex flex-row flex-wrap justify-content-around justify-content-sm-around justify-content-md-around justify-content-lg-around justify-content-xl-between">
                 <img src={Moon1} alt="moon1"/>
                 <img src={Moon2} alt="moon2"/>
@@ -172,11 +174,7 @@ function ProjectMountain() {
             </div>
 
             <div className="title-feature">
-                <p>Elements: Clouds</p>
-            </div>
-            <div className="desc-feature">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel leo id ligula gravida faucibus. Duis pulvinar rhoncus pretium.
-                    Nullam at dolor sit amet mi ultrices scelerisque. Sed eget libero.</p>
+                <p>Clouds</p>
             </div>
             <div className="img-feature1 d-flex flex-row flex-wrap justify-content-around justify-content-sm-around justify-content-md-around justify-content-lg-around justify-content-xl-between">
                 <img src={Cloud1} alt="clouds1"/>

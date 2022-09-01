@@ -1,5 +1,6 @@
 import { URL } from "../config"
 import HeaderPages from "./HeaderPages"
+import { Link } from 'react-router-dom';
 
 function HeaderIndex() {
 
@@ -7,13 +8,14 @@ function HeaderIndex() {
         <header>
             {window.location.href === URL ? (<div class="flex-container2">
                 <div className="home-title2 custom-link">
-                    <a href="/" className="custom-link home-title-play">PLAYMAN</a>
-                    <a href="/" className="custom-link home-title-gen gen-2">Generative Artist</a>
+                    <Link to="/" className="custom-link home-title-play">PLAYMAN</Link>
+                    <Link to="/" className="custom-link home-title-gen gen-2">Generative Artist</Link>
                 </div>
             </div>) : (<HeaderPages/>)}
-
         </header>
     )
+
+
 }
 
 export default HeaderIndex

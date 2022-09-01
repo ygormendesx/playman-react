@@ -1,11 +1,27 @@
-import HeaderPages from '../../components/HeaderPages';
-import Footer from '../../components/Footer';
 import '../../App.css';
-import React from 'react';
 import Msg from '../../images/msg.png';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 
 function Contact() {
+  
+  const form = useRef();
+     
+  const enviarEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_p20e7ud', 'template_h6nvhqn', form.current, 'pB3YiTKho2THKckzH')
+      .then((result) => {
+        alert('Message sent successfully.');
+        console.log(result.text);
+      }, (error) => {
+        alert('An error occurred in sending the message.');
+        console.log(error.text);
+      });
+  }
+
+
   return (
         <div className="contact d-flex align-items-center justify-content-center justify-content-sm-center justify-content-md-between flex-wrap flex-column flex-sm-colum flex-md-column flex-lg-row">
             <div className="d-flex align-items-center title-send-msg justify-content-center">
@@ -13,21 +29,20 @@ function Contact() {
             </div>
             <div className='d-flex space-form flex-row justify-content-between'>
                 <div className="form-contact d-flex align-items-center justify-content-center">
-                    <form action="/contact-form" method="post">
-                        <label for="name">Name:</label>
-                        <input type="texto" id="nome" name="name_user"/>
+                    <form ref={form} onSubmit={enviarEmail} action="/contact-form" method="post">
+                        <input type="name" id="nome" placeholder="Name" name="name_user"/>
 
-                        <label for="twitter">Twitter:</label>
-                        <input type="twitter" id="twitter" name="twitter_user"/>
+                        <input type="twitter" id="twitter" placeholder="Twitter" name="twitter_user"/>
 
-                        <label for="email">E-mail:</label>
-                        <input type="email" id="email" name="email_user"/>
+                        <input type="email" id="email" placeholder="E-mail" name="email_user"/>
                         
-                        <label for="subject">Subject:</label>
-                        <input type="email" id="email" name="email_user"/>
+                        <input type="subject" id="email" placeholder="Subject" name="subject_user"/>
 
-                        <label for="text">Text:</label>
-                        <textarea id="text-area-contact" name="text_user"></textarea>
+                        <textarea id="text-area-contact" name="text_user" placeholder="Message"></textarea>
+
+                        <div className='d-flex justify-content-end'>
+                        <button>Enviar</button>
+                        </div>
                     </form>
                 </div>
                 

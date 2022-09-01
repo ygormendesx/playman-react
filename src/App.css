@@ -278,6 +278,7 @@ max-width: 1200px;
   font-size: 16px;
   margin: 15px 30px 0px 200px;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .title-sup p{
@@ -285,6 +286,29 @@ max-width: 1200px;
   font-size: 16px;
   margin: 15px 0 0px 30px;
   font-weight: 300;
+}
+
+.title-sup-m a{
+  font: italic 300 15rem 'Montserrat';
+  font-size: 16px;
+  margin: 15px 0 0 0;
+  font-weight: 600;
+  text-decoration: none;
+  color: #262626;
+  text-align: center;
+}
+
+.title-sup-m p{
+  font: italic 300 15rem 'Montserrat';
+  font-size: 16px;
+  margin: 15px 0 0px 30px;
+  font-weight: 300;
+}
+
+.data-project-m {
+  max-width: 1140px;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 .desc-feature {
@@ -423,8 +447,8 @@ footer {
 
 .form-contact {
   width: 100%;
-  max-width: 650px;
-  margin: 0 30px 0 10px;
+  max-width: 550px;
+  margin: 0 120px 0 10px;
 }
 
 .space-form {
@@ -438,21 +462,67 @@ form {
   width: 60vw;
 }
 
-form label{
+input {
   display: flex;
   font-family: 'Montserrat';
   font-size: 20px;
   margin-top: 15px;
   margin-bottom: 5px;
-  font-weight: 500;
+  font-weight: 400;
+  padding: 12px 32px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 0;
+  box-shadow: 2px 2px 6px rgba(24, 24, 24, 0.204);
 }
 
 input, textarea {
+  width: 100%;
+  display: flex;
   font-family: 'Montserrat';
-  font-size: 14px;
-  border: 0.5px solid #262626;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  padding: 12px 32px;
   border-radius: 5px;
-  padding: 5px;
+  background-color: #ffffff;
+  border: 0;
+  box-shadow: 2px 2px 6px rgba(24, 24, 24, 0.204);
+}
+
+textarea {
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: fieldtext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  resize: auto;
+  cursor: text;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  column-count: initial !important;
+  height: 184px;
+}
+
+form button {
+  background-color: #262626;
+  color: #fff;
+  width: 9vw;
+  height: 7vh;
+  border-radius: 30px;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: 700;
 }
 
 .title-send-msg p {
@@ -495,7 +565,12 @@ input, textarea {
   }
 
   .title-var p {
-    letter-spacing: -.2rem;
+    letter-spacing: .1rem;
+  }
+
+  form button {
+    width: 35vw;
+    height: 7vh;
   }
   
 }
@@ -532,7 +607,8 @@ input, textarea {
 
   #c-menu a {
     min-width: 100vw;
-    min-height: 15vh;
+    min-height: 23vh;
+    margin: 10px 0 0 0;
   }
 
   #c-menu p {
@@ -547,6 +623,10 @@ input, textarea {
   #c-menu {
     margin-bottom: 0;
     border: 0;
+  }
+
+  .data-project-m {
+    max-width: 200px;
   }
 }
 
@@ -563,6 +643,11 @@ input, textarea {
 
   .title-var p {
     letter-spacing: .1rem;
+  }
+
+  form button {
+    width: 25vw;
+    height: 7vh;
   }
 }
 
@@ -588,6 +673,15 @@ input, textarea {
 
   #c-menu a {
     min-width: 170px;
+  }
+
+  form button {
+    width: 18vw;
+    height: 7vh;
+  }
+
+  .data-project-m {
+    max-width: 550px;
   }
 
 }
@@ -677,6 +771,15 @@ input, textarea {
     min-width: 230px;
   }
   
+  form button {
+    width: 12vw;
+    height: 7vh;
+  }
+
+  .data-project-m {
+    max-width: 730px;
+  }
+
 }
 
 
@@ -741,6 +844,10 @@ input, textarea {
 
   #c-menu a {
     min-width: 300px;
+  }
+
+  .data-project-m {
+    max-width: 930px;
   }
 }
 

@@ -6,14 +6,11 @@ import About from './pages/about/About';
 import ProjectMountain from './pages/projects/ProjectMountain';
 import ProjectSeC from './pages/projects/ProjectSeC';
 import Contact from './pages/contato/Contact';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from './pages/homepage';
-import { URL } from './config';
-
+import { Routes, Route } from "react-router-dom";
+import HomePage from './pages/homepage/main';
 
 function App() {
     return (
-        <BrowserRouter>
             <div className="App">
                 <HeaderIndex />
                 <Routes>
@@ -25,7 +22,6 @@ function App() {
                 </Routes>
                 <Footer />
             </div>
-        </BrowserRouter>
     );
 }
 

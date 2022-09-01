@@ -1,15 +1,17 @@
+import { Link } from 'react-router-dom';
+
 const HomePage = () => {
     
     return <div class="flex-container d-flex justify-content-center">
         <div class="container-menu custom-link d-flex ">
             <div class="container-about" id="c-menu">
-                <a href="/about"><p>About the<br></br>Artist</p></a>
+                <Link to="/about" ><p>About the<br></br>Artist</p></Link>
             </div>
             <div class="container-projects" id="c-menu">
-                <a href="/projectmountain"><p>Projects</p></a>
+                <Link to="/projectmountain"><p>Projects</p></Link>
             </div>
             <div class="container-contact" id="c-menu">
-                <a href="/contato"><p>Contact</p></a>
+                <Link to="/contato"><p>Contact</p></Link>
             </div>
         </div>
         <br />

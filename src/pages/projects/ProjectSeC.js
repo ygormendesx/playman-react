@@ -1,5 +1,6 @@
 import '../../App.css';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Main from '../../images/sec/red-esp.png';
 import Type1 from '../../images/sec/type1.png';
 import Type2 from '../../images/sec/type2.png';
@@ -21,8 +22,8 @@ function ProjectSeC() {
         
         <div className="flex-container-st d-flex justify-content-center align-items-center">
                 <ul className="list-submenu d-flex justify-content-between">                    
-                    <li><a href="/projectsec">Solve et Coagula&emsp;&emsp;&emsp;</a></li>
-                    <li><a href="/projectmountain">Holy Mountain</a></li>            
+                    <li><Link to="/projectsec">Solve et Coagula&emsp;&emsp;&emsp;</Link></li>
+                    <li><Link to="/projectmountain">Holy Mountain</Link></li>            
                 </ul>
         </div>
         
