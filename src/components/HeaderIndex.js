@@ -1,7 +1,16 @@
+import { useEffect, useState } from "react";
+
 import { URL } from "../config"
 import HeaderPages from "./HeaderPages"
 
 function HeaderIndex() {
+    const [homePage, setHomePage] = useState(true)
+
+    useEffect(()=> {
+        const loc = window.location.href
+        console.log(loc)
+    }, [])
+
     return (
         <header>
             {window.location.href === URL ? (<div class="flex-container2">
