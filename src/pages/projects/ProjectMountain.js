@@ -1,6 +1,6 @@
 import '../../App.css';
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import Meteoro from '../../images/meteoro.png';
 import Formation1 from '../../images/formation/1.png';
 import Formation2 from '../../images/formation/2.png';
@@ -55,8 +55,8 @@ function ProjectMountain() {
         
         <div className="flex-container-st d-flex justify-content-center align-items-center">
                 <ul className="list-submenu d-flex justify-content-between">                    
-                    <li><Link to="/projectsec">Solve et Coagula&emsp;&emsp;&emsp;</Link></li>
-                    <li><Link to="/projectmountain">Holy Mountain</Link></li>            
+                    <li><a href="/projectsec">Solve et Coagula&emsp;&emsp;&emsp;</a></li>
+                    <li><a href="/projectmountain">Holy Mountain</a></li>            
                 </ul>
         </div>
         
