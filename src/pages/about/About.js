@@ -1,6 +1,6 @@
 import '../../App.css';
 import React from 'react';
-import Ygor from '../../images/ygor.jpg';
+import Ygor from '../../images/ygor1.jpg';
 
 
 function About() {
