@@ -13,7 +13,6 @@ function Contact() {
 
     emailjs.sendForm('service_p20e7ud', 'template_h6nvhqn', form.current, 'pB3YiTKho2THKckzH')
       .then((result) => {
-        <img src={email} alt="Sent your Message"/>
         alert('Message sent successfully.');
         console.log(result.text);
       }, (error) => {

@@ -24,7 +24,7 @@ function About() {
                     </div>
                 </div>
                 <div className="photo-about">
-                    <img src={Ygor} alt="Photo Playman"/>
+                    <img src={Ygor} alt="Playman"/>
             </div>
         </div>   
         <div className="desc-text about-text p-two">
