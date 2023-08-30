@@ -10,7 +10,7 @@ function HeaderPages() {
                 <div className="list-menu">
                 <ul className="list-menu d-flex align-items-center justify-content-between custom-link">
                     <li><a href="./about">About</a></li>
-                    <li><a href="./projectmountain">Projects</a></li>
+                    <li><a href="./projects">Projects</a></li>
                     <li><a href="./contato">Contact</a></li>
                 </ul>
                 </div>

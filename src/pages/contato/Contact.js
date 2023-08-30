@@ -1,5 +1,5 @@
 import '../../App.css';
-import Msg from '../../images/msg.png';
+import email from '../../images/email.gif';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -13,6 +13,7 @@ function Contact() {
 
     emailjs.sendForm('service_p20e7ud', 'template_h6nvhqn', form.current, 'pB3YiTKho2THKckzH')
       .then((result) => {
+        <img src={email} alt="Sent your Message"/>
         alert('Message sent successfully.');
         console.log(result.text);
       }, (error) => {
@@ -47,7 +48,7 @@ function Contact() {
                 </div>
                 
                 <div className="sent-msg d-flex align-items-center">
-                    <img src={Msg} alt="Sent your Message"/>
+                    <img src={email} alt="Sent your Message"/>
                 </div>
             </div>
         </div>

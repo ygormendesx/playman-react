@@ -6,7 +6,7 @@ const HomePage = () => {
                 <a href="/about"><p>About the<br></br>Artist</p></a>
             </div>
             <div class="container-projects" id="c-menu">
-                <a href="/projectmountain"><p>Projects</p></a>
+                <a href="/projects"><p>Projects</p></a>
             </div>
             <div class="container-contact" id="c-menu">
                 <a href="/contato"><p>Contact</p></a>

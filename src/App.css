@@ -94,6 +94,12 @@ header .home-title2 {
   font-weight: 700;
 }
 
+.retangulo {
+  border: 2px solid #262626;
+  height: 620px;
+
+}
+
 #c-menu {
   margin-top: 10px;
   margin-bottom: -60px;
@@ -176,7 +182,7 @@ ul li{
 
 .flex-container-st {
   background-color: #F0F0F0;
-  height: 36px;
+  height: 40px;
   width: 100%;
   color: #262626;
 }
@@ -199,53 +205,62 @@ ul li{
   justify-content: center;
   
 }
-.list-menu ul {
-  display: flex;
-  justify-content: center;
-}
 
-.list-submenu li a{
-  display: flex;
-  width: 100%;
+
+.list-submenu {
   font-family: 'Montserrat';
-  font-size: 16px;
-  font-weight: 500;
-  color: #262626;
-  
-}
-
-.list-submenu li{
   list-style: square;
-  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .flex-container-project {
 margin-top: 30px;
 width: 100%;
-margin: 30px auto 0 auto;
-max-width: 1200px;
+margin: 30px auto  auto;
+min-width: 350px;
+max-width: 350px;
 }
 
+.flex-container-projects {
+  margin-top: 30px;
+  width: 100%;
+  margin: 30px auto 0 auto;
+  max-width: 1200px;
+  }
+  
+
+
+
 .img-project img {
-  height: 30rem;
-  width: 30rem;
-  margin: 0px 10px 0 46px;
+  height: 20rem;
+  width: 20rem;
+  margin: 20px 0px 15px 0px;
   box-shadow: 1px 1px 10px rgba(24, 24, 24, 0.404)
 }
 
 .name-title p {
+  
   font-family: 'Montserrat';
   font-size: 30px;
-  margin-left: 70px;
   margin-bottom: 15px;
+  margin-top: 5px;
   font-weight: 600;
 }
 
 .desc-project {
-  margin: 0 30px 5px 30px;
+  
+  margin-bottom: 30px;
   font-family: 'Montserrat';
   font-size: 18px;
-  text-align: justify; 
+  text-align: justify;
+  min-width: 300px;
+  max-width:300px;
+  min-height: 135px;
+  max-height: 135px;
+  ;
   
 }
 
@@ -301,7 +316,7 @@ max-width: 1200px;
 .title-sup-m p{
   font: italic 300 15rem 'Montserrat';
   font-size: 16px;
-  margin: 15px 0 0px 30px;
+  margin: 5px 0 25px 5px;
   font-weight: 300;
 }
 
@@ -532,7 +547,7 @@ form button {
 }
 
 .sent-msg img {
-  margin: 25px 0 0 10px;
+  margin: 0 0 40px 0;
   width: 23rem;
 }
 
