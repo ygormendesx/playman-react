@@ -424,6 +424,32 @@ footer {
   line-height: 1.4;
 }
 
+.photo-nft-brasil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.photo-nft-brasil img {
+  height: 27rem;
+}
+
+
+.photo-nft-brasil2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.photo-nft-brasil2 img {
+  height: 27rem;
+  margin: 0 10px 0 10px;
+}
+
 .photo-about {
   display: flex;
   align-items: center;
@@ -806,6 +832,17 @@ form button {
     height: 620px;
   }
 
+  .photo-nft-brasil img {
+    height: 16rem;
+  }
+  
+
+  
+  .photo-nft-brasil2 img {
+    height: 16rem;
+    margin: 0 10px 20px 10px;
+  }
+
 }
 
 @media (max-width: 575.98px) {
@@ -938,6 +975,17 @@ form button {
   .retangulo {
     border: 2px solid #262626;
     height: 620px;
+  }
+
+  .photo-nft-brasil img {
+    height: 18rem;
+  }
+  
+
+  
+  .photo-nft-brasil2 img {
+    height: 18rem;
+    margin: 0 10px 0 10px;
   }
 
 
