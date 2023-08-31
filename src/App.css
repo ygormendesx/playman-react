@@ -28,7 +28,7 @@ header {
 }
 
 .header-main {
-  
+
   height: 450px;
   max-width: 1200px;
   width: 100%;
@@ -57,6 +57,7 @@ header {
 .custom-link a {
   text-decoration: none;
 }
+
 .flex-container {
   display: flex;
   max-width: 992px;
@@ -141,7 +142,7 @@ header .home-title2 {
   min-height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
 #c-menu a:hover {
@@ -149,7 +150,7 @@ header .home-title2 {
   color: #262626;
 }
 
-.container-about a{
+.container-about a {
   background-color: #262626;
   color: #F0F0F0;
 }
@@ -159,7 +160,7 @@ header .home-title2 {
   margin-right: 10px;
 }
 
-.container-projects a{
+.container-projects a {
   background-color: #262626;
   color: #F0F0F0;
 }
@@ -177,7 +178,7 @@ header .home-title2 {
 
 
 
-ul li{
+ul li {
   list-style: none;
 }
 
@@ -206,7 +207,7 @@ ul li{
 .projects ul {
   display: flex;
   justify-content: center;
-  
+
 }
 
 
@@ -220,11 +221,11 @@ ul li{
 }
 
 .flex-container-project {
-margin-top: 30px;
-width: 100%;
-margin: 30px auto  auto;
-min-width: 350px;
-max-width: 350px;
+  margin-top: 30px;
+  width: 100%;
+  margin: 30px auto auto;
+  min-width: 350px;
+  max-width: 350px;
 }
 
 .flex-container-projects {
@@ -232,8 +233,8 @@ max-width: 350px;
   width: 100%;
   margin: 30px auto 0 auto;
   max-width: 1200px;
-  }
-  
+}
+
 
 
 
@@ -245,7 +246,7 @@ max-width: 350px;
 }
 
 .name-title p {
-  
+
   font-family: 'Montserrat';
   font-size: 30px;
   margin-bottom: 15px;
@@ -254,17 +255,17 @@ max-width: 350px;
 }
 
 .desc-project {
-  
+
   margin-bottom: 30px;
   font-family: 'Montserrat';
   font-size: 18px;
   text-align: justify;
   min-width: 300px;
-  max-width:300px;
+  max-width: 300px;
   min-height: 135px;
   max-height: 135px;
   ;
-  
+
 }
 
 .flex-container-features {
@@ -291,7 +292,7 @@ max-width: 350px;
   margin-bottom: 30px;
 }
 
-.title-sup a{
+.title-sup a {
   font: italic 300 15rem 'Montserrat';
   font-size: 16px;
   margin: 15px 30px 0px 200px;
@@ -299,14 +300,14 @@ max-width: 350px;
   text-decoration: none;
 }
 
-.title-sup p{
+.title-sup p {
   font: italic 300 15rem 'Montserrat';
   font-size: 16px;
   margin: 15px 0 0px 30px;
   font-weight: 300;
 }
 
-.title-sup-m a{
+.title-sup-m a {
   font: italic 300 15rem 'Montserrat';
   font-size: 16px;
   margin: 15px 0 0 0;
@@ -316,7 +317,7 @@ max-width: 350px;
   text-align: center;
 }
 
-.title-sup-m p{
+.title-sup-m p {
   font: italic 300 15rem 'Montserrat';
   font-size: 16px;
   margin: 5px 0 25px 5px;
@@ -336,7 +337,7 @@ max-width: 350px;
 .desc-feature p {
   font-family: 'Montserrat';
   font-size: 18px;
-  text-align: justify; 
+  text-align: justify;
   margin-bottom: 30px;
 }
 
@@ -347,7 +348,7 @@ max-width: 350px;
 }
 
 
-.img-sec-main img{
+.img-sec-main img {
   max-height: 40rem;
   margin: 0 60px 50px 26px;
   box-shadow: 1px 1px 10px rgba(24, 24, 24, 0.404);
@@ -360,12 +361,12 @@ max-width: 350px;
   margin-bottom: 30px
 }
 
-.img-sec-feature img{
+.img-sec-feature img {
   max-height: 30rem;
   box-shadow: 1px 1px 10px rgba(24, 24, 24, 0.404);
 }
 
-.img-sec-feature1 img{
+.img-sec-feature1 img {
   max-height: 30rem;
   margin: 0 30px 30px 30px;
   box-shadow: 1px 1px 10px rgba(24, 24, 24, 0.404);
@@ -374,7 +375,7 @@ max-width: 350px;
 .sec-release {
   max-width: 550px;
 }
-  
+
 
 footer {
   background-color: #262626;
@@ -388,7 +389,7 @@ footer {
   margin-bottom: auto;
 }
 
-.copyright p{
+.copyright p {
   font-family: 'Montserrat';
   font-size: 14px;
   font-weight: 500;
@@ -447,7 +448,7 @@ footer {
   font-size: 18px;
   text-align: justify;
   line-height: 1.4;
-  
+
 }
 
 
@@ -458,13 +459,17 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1; /* Coloca o GIF atrás do conteúdo */
+  z-index: -1;
+  /* Coloca o GIF atrás do conteúdo */
 }
 
 .background-gif {
-  width: 100%; /* Para garantir que o GIF ocupe toda a largura */
-  height: 100%; /* Para garantir que o GIF ocupe toda a altura */
-  object-fit: cover; /* Redimensionar o GIF para cobrir todo o elemento */
+  width: 100%;
+  /* Para garantir que o GIF ocupe toda a largura */
+  height: 100%;
+  /* Para garantir que o GIF ocupe toda a altura */
+  object-fit: cover;
+  /* Redimensionar o GIF para cobrir todo o elemento */
 }
 
 
@@ -575,21 +580,27 @@ form button {
   0% {
     transform: translate(0);
   }
+
   5% {
     transform: translate(-2px, -2px);
   }
+
   10% {
     transform: translate(2px, -2px);
   }
+
   15% {
     transform: translate(-2px, 2px);
   }
+
   20% {
     transform: translate(2px, 2px);
   }
+
   25% {
     transform: translate(0);
   }
+
   100% {
     transform: translate(0);
   }
@@ -612,7 +623,7 @@ form button {
 
   font-family: 'Montserrat';
   font-size: 18px;
-  font-weight:100;
+  font-weight: 100;
   color: #f3f3f3;
   letter-spacing: .5rem;
   position: relative;
@@ -634,7 +645,7 @@ form button {
 
   font-family: 'Montserrat';
   font-size: 16px;
-  font-weight:300;
+  font-weight: 300;
   color: #f3f3f3;
   letter-spacing: .5rem;
 
@@ -655,7 +666,7 @@ form button {
 
 .modern-menu a {
   text-decoration: none;
-  color: #333; 
+  color: #333;
   font-weight: bold;
   font-size: 18px;
   transition: color 0.3s ease;
@@ -663,8 +674,8 @@ form button {
 
 
 .modern-menu a:hover {
-  color: #f6f6f6; 
-  transform: scale(1.1); 
+  color: #f6f6f6;
+  transform: scale(1.1);
 }
 
 
@@ -675,8 +686,8 @@ form button {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f6f6f6; 
-  transition: width 0.3s ease; 
+  background-color: #f6f6f6;
+  transition: width 0.3s ease;
 }
 
 .modern-menu li:hover a::before {
@@ -695,13 +706,13 @@ form button {
     height: 20rem;
     width: 20rem;
   }
-  
+
   .img-feature1 img {
     height: 20rem;
     width: 20rem;
   }
 
-  .img-sec-main img{
+  .img-sec-main img {
     max-height: 30rem;
     margin: 0;
   }
@@ -724,7 +735,38 @@ form button {
     width: 35vw;
     height: 7vh;
   }
-  
+
+  .list-menu {
+    width: 100%;
+
+    max-width: 300px;
+  }
+
+  .header-main {
+    justify-content: space-around;
+  }
+
+  .home-title-gen-an {
+    letter-spacing: .2rem;
+  }
+
+  .list-menu ul {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
+
+  .list-menu ul li {
+    width: 100%;
+    max-width: 65px;
+  }
+
+  .list-menu ul li a {
+    width: 100%;
+    max-width: 50px;
+    justify-content: space-between;
+  }
+
 }
 
 @media (max-width: 575.98px) {
@@ -733,7 +775,7 @@ form button {
   }
 
   .home-title-gen {
-    display:none;
+    display: none;
   }
 
   .sent-msg img {
@@ -744,7 +786,7 @@ form button {
     font-size: 13px;
   }
 
-  .title-sup p{
+  .title-sup p {
     margin: 30px 0 0 0;
   }
 
@@ -764,8 +806,8 @@ form button {
   }
 
   #c-menu p {
-  margin: 0;
-  
+    margin: 0;
+
   }
 
   .container-projects {
@@ -787,7 +829,7 @@ form button {
     height: 25rem;
     width: 25rem;
   }
-  
+
   .img-feature1 img {
     height: 25rem;
     width: 25rem;
@@ -800,6 +842,18 @@ form button {
   form button {
     width: 25vw;
     height: 7vh;
+  }
+
+  .page-title {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+
+  }
+
+  .header-main {
+    flex-direction: column;
+    justify-content: space-around;
   }
 }
 
@@ -815,7 +869,7 @@ form button {
     width: 37rem;
   }
 
-  .title-sup p{
+  .title-sup p {
     margin: 30px 0 0 0;
   }
 
@@ -836,12 +890,18 @@ form button {
     max-width: 550px;
   }
 
+  .header-main {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  
 }
 
 
 @media (max-width: 767.98px) {
   .home-title-gen {
-    display:none;
+    display: none;
   }
 
   .gen-2 {
@@ -852,19 +912,11 @@ form button {
     margin-bottom: 10px;
   }
 
-  .list-menu {
-    margin: 0;
-    padding: 0;
-  }
-
-  .list-menu ul {
-    margin: 0
-  }
 
   .home-title-play {
     font-weight: 600;
   }
-  
+
   .desc-project {
     margin: 0 10px 0 10px;
   }
@@ -885,13 +937,36 @@ form button {
 
   .form-contact {
     margin: 0;
-}
+  }
+
+  .list-menu {
+    width: 100%;
+
+    max-width: 300px;
+    justify-content: space-between;
+  }
+
+  
+
+  .list-menu ul li {
+    width: 100%;
+    max-width: 65px;
+  }
+
+  .list-menu ul li a {
+    width: 100%;
+    max-width: 50px;
+    justify-content: space-between;
+  }
+
 }
 
 @media (min-width: 767.98px) {
-.title-send-msg p {
-  display: none;
-}
+  .title-send-msg p {
+    display: none;
+  }
+
+  
 }
 
 
@@ -900,6 +975,14 @@ form button {
     height: 27rem;
     width: 27rem;
   }
+
+  
+
+  .list-menu ul {
+    width: 100%;
+    max-width: 200px;
+  }
+
 
   .img-feature1 img {
     max-height: 23rem;
@@ -911,7 +994,7 @@ form button {
     margin: 0 0 30px 10px;
   }
 
-  .title-sup p{
+  .title-sup p {
     margin: 15px 0 0 0;
   }
 
@@ -922,7 +1005,7 @@ form button {
   #c-menu a {
     min-width: 230px;
   }
-  
+
   form button {
     width: 12vw;
     height: 7vh;
@@ -932,6 +1015,17 @@ form button {
     max-width: 730px;
   }
 
+  .home-title-gen-an {
+    letter-spacing: .4rem;
+  }
+
+
+  .header-main {
+
+    justify-content: space-between;
+
+  }
+
 }
 
 
@@ -939,7 +1033,7 @@ form button {
   .title-name p {
     margin: 10px 0 0 0;
   }
-  
+
   .subtitle-name p {
     margin-left: 0px;
     margin-top: -10px;
@@ -978,13 +1072,18 @@ form button {
     max-width: 992px;
   }
 
-  .img-sec-main img{
+  .img-sec-main img {
     margin: 0
   }
+
+  
+
+ 
+  
 }
 
 @media (min-width: 991.99px) and (max-width: 1200px) {
-  
+
   .img-project img {
     margin-left: 25px;
   }
@@ -1001,5 +1100,32 @@ form button {
   .data-project-m {
     max-width: 930px;
   }
+
+  .header-main {
+    justify-content: space-between;
+  }
 }
 
+@media (min-width: 1200px) {
+
+  .img-project img {
+    margin-left: 25px;
+  }
+
+  .img-feature1 img {
+    max-height: 32rem;
+    max-width: 32rem;
+  }
+
+  #c-menu a {
+    min-width: 300px;
+  }
+
+  .data-project-m {
+    max-width: 930px;
+  }
+
+  .header-main {
+    justify-content: space-between;
+  }
+}
