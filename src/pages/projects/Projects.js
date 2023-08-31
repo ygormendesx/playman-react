@@ -23,11 +23,11 @@ function Projects() {
       <HeaderIndex />
       <div className="project-mountain">
         <div className="flex-container-st d-flex justify-content-center align-items-center">
-          <ul className="list-submenu d-flex justify-content-between">
+          <ul className="list-submenu">
             Projects
           </ul>
         </div>
-        <div className="flex-container-projects d-flex flex-wrap flex-lg-row align-items-center justify-content-between">
+        <div className="flex-container-projects d-flex flex-wrap flex-lg-row align-items-center justify-content-around">
           <Artwork
             title="Digital Expression"
             description="Digital Expression is a work of art that brings the power of simple geometric shapes, lines mix and reveal the power to generate complex, interesting and unexpected formations."
@@ -68,7 +68,7 @@ function Projects() {
           />
 
           <Artwork
-            title="Sunset Symphony 01"
+            title="Sunset Symphony1"
             description="Sunset Symphony 001 é a primeira de uma coleção de três obras de arte únicas que traz como tema principal a sinfonia vibrante do por do sol em arte abstrata."
             imageUrl={ss1}
             link="https://exchange.art/single/FcEq5SxcpYTddvHNG2DvDg3jhWTnExGDJngHDTFcYpjf"
@@ -76,7 +76,7 @@ function Projects() {
           />
 
           <Artwork
-            title="Sunset Symphony 02"
+            title="Sunset Symphony2"
             description="Sunset Symphony 002 é a segunda de uma coleção de três obras de arte únicas que traz como tema principal a sinfonia vibrante do por do sol em arte abstrata."
             imageUrl={ss2}
             link="https://exchange.art/single/hDy7kKPsk2HqhgRANT2Tso6pTHz7nLWLGZ7EogcM6bH"
@@ -84,7 +84,7 @@ function Projects() {
           />
 
           <Artwork
-            title="Sunset Symphony 03"
+            title="Sunset Symphony3"
             description="Sunset Symphony 003 é a terceira de uma coleção de três obras de arte únicas que traz como tema principal a sinfonia vibrante do por do sol em arte abstrata."
             imageUrl={ss3}
             link="https://exchange.art/single/4CgACx4CbfDSEmfCkkkRJdmoWM7aDsuaYa7kG76Jysz5"

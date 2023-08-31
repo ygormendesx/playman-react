@@ -189,20 +189,10 @@ ul li {
   height: 40px;
   width: 100%;
   color: #262626;
+  justify-content: center;
 }
 
-.list-submenu {
-  padding: 0;
-  margin-top: 9px;
-}
 
-.list-submenu a {
-  text-decoration: none;
-}
-
-.list-submenu a:hover {
-  font-weight: 700;
-}
 
 .projects ul {
   display: flex;
@@ -216,8 +206,9 @@ ul li {
   list-style: square;
   margin-top: 5px;
   margin-bottom: 5px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
+  
 }
 
 .flex-container-project {
@@ -768,6 +759,53 @@ form button {
     justify-content: space-between;
   }
 
+  .list-menu ul {
+    padding-left: 0;
+  }
+
+  .img-project img {
+    height: 18rem;
+    width: 18rem;
+    margin: 20px 0px 15px 0px;
+    box-shadow: 1px 1px 10px rgba(24, 24, 24, 0.404)
+  }
+
+  .img-project {
+    flex-direction: column;
+  }
+
+  .flex-container-project {
+    margin-top: 30px;
+    width: 100%;
+    margin: 30px 20px auto;
+    min-width: 340px;
+    max-width: 30px;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  .flex-container-projects {
+    justify-content: center;
+  }
+
+
+  .desc-project {
+    margin-bottom: 15px;
+    min-width: 300px;
+    max-width: 300px;
+    font-size: 17px;
+  }
+
+  .name-title {
+    margin: 10px 15px 10px 15px;
+    font-size: 29px;
+  }
+
+  .retangulo {
+    border: 2px solid #262626;
+    height: 620px;
+  }
+
 }
 
 @media (max-width: 575.98px) {
@@ -820,9 +858,7 @@ form button {
     border: 0;
   }
 
-  .data-project-m {
-    max-width: 200px;
-  }
+  
 }
 
 @media (min-width: 400px) and (max-width: 575.98px) {
@@ -856,6 +892,55 @@ form button {
     flex-direction: column;
     justify-content: space-around;
   }
+
+  .list-menu ul {
+    padding-left: 0;
+  }
+
+  .img-project img {
+    height: 18rem;
+    width: 18rem;
+    margin: 20px 0px 15px 0px;
+    box-shadow: 1px 1px 10px rgba(24, 24, 24, 0.404)
+  }
+
+  .img-project {
+    flex-direction: column;
+  }
+
+  .flex-container-project {
+    margin-top: 30px;
+    width: 100%;
+    margin: 30px 20px auto;
+    min-width: 370px;
+    max-width: 30px;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  .flex-container-projects {
+    justify-content: center;
+  }
+
+
+  .desc-project {
+    margin: 0;
+    min-width: 340px;
+    max-width: 340px;
+    font-size: 17px;
+  }
+
+  .name-title {
+    margin: 10px 15px 10px 15px;
+    font-size: 29px;
+  }
+
+  .retangulo {
+    border: 2px solid #262626;
+    height: 620px;
+  }
+
+
 }
 
 
@@ -896,20 +981,77 @@ form button {
     justify-content: space-around;
   }
 
+  .list-menu ul {
+    padding-left: 0;
+  }
+
+  .list-menu {
+    margin-top: 5px;
+  }
+
+  
+
+  .home-title-gen {
+    display: none;
+  }
+
+
+  .img-project img {
+    height: 18rem;
+    width: 18rem;
+    margin: 20px 0px 15px 0px;
+    box-shadow: 1px 1px 10px rgba(24, 24, 24, 0.404)
+  }
+
+  .img-project {
+    flex-direction: column;
+  }
+
+  .flex-container-project {
+    margin-top: 30px;
+    width: 100%;
+    margin: 30px 20px auto;
+    min-width: 480px;
+    max-width: 30px;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  .flex-container-projects {
+    justify-content: center;
+  }
+
+
+  .desc-project {
+    margin: 0;
+    min-width: 350px;
+    max-width: 350px;
+    font-size: 17px;
+  }
+
+  .name-title {
+    margin: 10px 15px 10px 15px;
+    font-size: 29px;
+  }
+
+  .retangulo {
+    border: 2px solid #262626;
+    height: 620px;
+  }
   
 }
 
 
 @media (max-width: 767.98px) {
-  .home-title-gen {
+  /* .home-title-gen {
     display: none;
-  }
+  } */
 
   .gen-2 {
     display: block;
   }
 
-  .page-title {
+  /* .page-title {
     margin-bottom: 10px;
   }
 
@@ -925,40 +1067,39 @@ form button {
   .name-title p {
     margin: 30px 0 15px 0;
     padding: 0;
-  }
+  } */
 
   .sent-msg img {
     display: none;
   }
-
+/* 
   .img-sec-feature img {
     max-height: 30rem;
     margin: 0 0 30px 10px;
-  }
+  } */
 
   .form-contact {
     margin: 0;
   }
 
-  .list-menu {
+  /* .list-menu {
     width: 100%;
 
     max-width: 300px;
     justify-content: space-between;
   }
 
-  
-
   .list-menu ul li {
     width: 100%;
     max-width: 65px;
+    margin: 0;
   }
 
   .list-menu ul li a {
     width: 100%;
     max-width: 50px;
     justify-content: space-between;
-  }
+  } */
 
 }
 
@@ -972,16 +1113,11 @@ form button {
 
 
 @media (min-width: 767.98px) and (max-width: 991.98px) {
-  .img-project img {
-    height: 27rem;
-    width: 27rem;
-  }
-
-  
+    
 
   .list-menu ul {
     width: 100%;
-    max-width: 200px;
+    max-width: 300px;
   }
 
 
@@ -1027,6 +1163,44 @@ form button {
 
   }
 
+  .img-project img {
+    height: 18rem;
+    width: 18rem;
+    margin: 20px 0px 15px 0px;
+    box-shadow: 1px 1px 10px rgba(24, 24, 24, 0.404)
+  }
+
+  .img-project {
+    flex-direction: column;
+  }
+
+  .flex-container-project {
+    margin-top: 30px;
+    width: 100%;
+    margin: 30px 20px auto;
+    min-width: 330px;
+    max-width: 30px;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  .flex-container-projects {
+    justify-content: center;
+  }
+
+
+  .desc-project {
+    margin: 10px 15px 25px 15px;
+    min-width: 280px;
+    max-width: 280px;
+    font-size: 17px;
+  }
+
+  .name-title {
+    margin: 10px 15px 10px 15px;
+    font-size: 29px;
+  }
+
 }
 
 
@@ -1048,25 +1222,16 @@ form button {
     height: 18rem;
   }
 
-  .desc-project {
-    margin: 10px 15px 0 15px;
-  }
-
-  .desc-feature {
+   .desc-feature {
     margin: 0px 15px 10px 15px;
   }
 
-  .name-title p {
-    margin: 30px 15px 10px 15px;
-    padding: 0;
-  }
-
-  .sent-msg img {
+   .sent-msg img {
     width: 19rem;
   }
 
   .img-project img {
-    margin: 0;
+  
   }
 
   .sec-release {
@@ -1076,19 +1241,11 @@ form button {
   .img-sec-main img {
     margin: 0
   }
-
-  
-
- 
-  
 }
 
 @media (min-width: 991.99px) and (max-width: 1200px) {
 
-  .img-project img {
-    margin-left: 25px;
-  }
-
+ 
   .img-feature1 img {
     max-height: 32rem;
     max-width: 32rem;
@@ -1105,14 +1262,25 @@ form button {
   .header-main {
     justify-content: space-between;
   }
+
+  .retangulo {
+    border: 2px solid #262626;
+    height: 620px;
+  }
+
+  .flex-container-project {
+    margin-top: 30px;
+    width: 100%;
+    margin: 30px auto auto;
+    min-width: 330px;
+    max-width: 30px;
+  }
+  
 }
 
 @media (min-width: 1200px) {
 
-  .img-project img {
-    margin-left: 25px;
-  }
-
+  
   .img-feature1 img {
     max-height: 32rem;
     max-width: 32rem;
