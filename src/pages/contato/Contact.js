@@ -2,6 +2,9 @@ import '../../App.css';
 import email from '../../images/email.gif';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import HeaderIndex from '../../components/HeaderIndex';
+import Footer from '../../components/Footer';
+
 
 
 function Contact() {
@@ -23,6 +26,9 @@ function Contact() {
 
 
   return (
+        <div>
+            <HeaderIndex />
+
         <div className="contact d-flex align-items-center justify-content-center justify-content-sm-center justify-content-md-between flex-wrap flex-column flex-sm-colum flex-md-column flex-lg-row">
             <div className="d-flex align-items-center title-send-msg justify-content-center">
                 <p>Send me Your Message</p>
@@ -51,6 +57,8 @@ function Contact() {
                 </div>
             </div>
         </div>
+        <Footer />
+      </div>
   );
 }
 

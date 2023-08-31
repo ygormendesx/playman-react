@@ -1,19 +1,34 @@
-import { URL } from "../config"
-import HeaderPages from "./HeaderPages"
+import { URL } from "../config";
+import HeaderPages from "./HeaderPages";
 
 function HeaderIndex() {
-    return (
-        <header>
-            {window.location.href === URL ? (<div class="flex-container2">
-                <div className="home-title2 custom-link">
-                    <a href="/" className="custom-link home-title-play">PLAYMAN</a>
-                    <a href="/" className="custom-link home-title-gen gen-2">Generative Artist</a>
-                </div>
-            </div>) : (<HeaderPages/>)}
-        </header>
-    )
-
-
+  return (
+    <header>
+      <div className="d-flex justify-content-between align-items-center pages-header flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column">
+        <div className="d-flex flex-column custom-link align-items-sm-center align-items-center align-items-md-start align-items-lg-start align-items-xl-start page-title">
+          <a href="/" className="home-title-play">
+            PLAYMAN
+          </a>
+          <a href="/" className="home-title-gen">
+            Generative Artist
+          </a>
+        </div>
+        <div className="list-menu">
+          <ul className="list-menu d-flex align-items-center justify-content-between custom-link">
+            <li>
+              <a href="./about">About</a>
+            </li>
+            <li>
+              <a href="./projects">Projects</a>
+            </li>
+            <li>
+              <a href="./contato">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+  );
 }
 
-export default HeaderIndex
+export default HeaderIndex;

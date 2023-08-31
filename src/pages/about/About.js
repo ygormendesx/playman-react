@@ -1,10 +1,14 @@
 import '../../App.css';
 import React from 'react';
 import Ygor from '../../images/ygor1.jpg';
+import HeaderIndex from '../../components/HeaderIndex';
+import Footer from '../../components/Footer';
 
 
 function About() {
   return (
+    <div>
+        <HeaderIndex />
     <div className='about'>
         <div className="d-flex align-items-center justify-content-center flex-lg-row-reverse flex-xl-row-reverse flex-md-column-reverse flex-sm-column-reverse flex-column-reverse align-self-center align-content-center ">
             <div className="d-flex flex-column about-text align-items-center align-items-sl-center align-items-md-center align-items-lg-start align-items-xl-start">
@@ -35,6 +39,8 @@ function About() {
                     &emsp;&emsp;I really appreciate the use of basic geometric shapes in my works, which despite looking simple can become very complex and beautiful in a well-defined composition. I also dare to experiment with more detailed compositions with more complex shapes and forms, always focusing on bringing a pleasant experience to the public, my goal will always be to bring an emotional result in the art. If you've stopped to read this, I hope my work is somehow important to you.
                 </p>
         </div>
+    </div>
+    <Footer />
     </div>
   );
 }
