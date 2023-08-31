@@ -112,8 +112,11 @@ header .home-title2 {
 }
 
 .retangulo {
-  border: 2px solid #262626;
+  
+  border: 1px solid #262626;
   height: 620px;
+  box-shadow: 1px 1px 4px rgba(24, 24, 24, 0.404);
+  
 
 }
 
@@ -233,7 +236,7 @@ ul li {
   height: 20rem;
   width: 20rem;
   margin: 20px 0px 15px 0px;
-  box-shadow: 1px 1px 10px rgba(24, 24, 24, 0.404)
+  
 }
 
 .name-title p {
@@ -391,7 +394,7 @@ footer {
 
 .about {
   margin: 30px auto 0 auto;
-  max-width: 1200px;
+  max-widtsubtith: 1200px;
   min-height: calc(100vh - 320px);
 }
 
@@ -410,7 +413,7 @@ footer {
 .subtitle-name p {
   font-family: 'Montserrat';
   font-size: 24px;
-  font-style: italic;
+  
   margin-bottom: 25px;
   font-weight: 400;
   margin-left: 31px;
@@ -527,7 +530,7 @@ input {
   margin-bottom: 5px;
   font-weight: 400;
   padding: 12px 32px;
-  border-radius: 5px;
+  border-radius: 1px;
   background-color: #ffffff;
   border: 0;
   box-shadow: 2px 2px 6px rgba(24, 24, 24, 0.204);
@@ -542,7 +545,7 @@ input, textarea {
   margin-bottom: 5px;
   font-weight: 400;
   padding: 12px 32px;
-  border-radius: 5px;
+  border-radius: 1px;
   background-color: #ffffff;
   border: 0;
   box-shadow: 2px 2px 6px rgba(24, 24, 24, 0.204);
@@ -776,7 +779,7 @@ form button {
 
   .list-menu ul li {
     width: 100%;
-    max-width: 65px;
+    max-width: 83px;
   }
 
   .list-menu ul li a {
@@ -827,20 +830,18 @@ form button {
     font-size: 29px;
   }
 
-  .retangulo {
-    border: 2px solid #262626;
-    height: 620px;
-  }
-
+  
   .photo-nft-brasil img {
     height: 16rem;
   }
-  
-
-  
+    
   .photo-nft-brasil2 img {
     height: 16rem;
     margin: 0 10px 20px 10px;
+  }
+
+  form {
+    width: 84vw;
   }
 
 }
@@ -972,10 +973,6 @@ form button {
     font-size: 29px;
   }
 
-  .retangulo {
-    border: 2px solid #262626;
-    height: 620px;
-  }
 
   .photo-nft-brasil img {
     height: 18rem;
@@ -988,6 +985,9 @@ form button {
     margin: 0 10px 0 10px;
   }
 
+  form {
+    width: 80vw;
+  }
 
 }
 
@@ -1081,12 +1081,7 @@ form button {
     margin: 10px 15px 10px 15px;
     font-size: 29px;
   }
-
-  .retangulo {
-    border: 2px solid #262626;
-    height: 620px;
-  }
-  
+ 
 }
 
 
@@ -1249,6 +1244,13 @@ form button {
     font-size: 29px;
   }
 
+  .form-contact {
+    margin: 0 34px 0 10px;
+  }
+
+  form {
+    width: 53vw;
+  }
 }
 
 
@@ -1311,17 +1313,20 @@ form button {
     justify-content: space-between;
   }
 
-  .retangulo {
-    border: 2px solid #262626;
-    height: 620px;
-  }
-
   .flex-container-project {
     margin-top: 30px;
     width: 100%;
     margin: 30px auto auto;
     min-width: 330px;
     max-width: 30px;
+  }
+
+
+  
+
+
+  .form-contact {
+    margin: 0 34px 0 10px;
   }
   
 }

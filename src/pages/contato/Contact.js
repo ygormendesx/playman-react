@@ -1,5 +1,5 @@
 import '../../App.css';
-import email from '../../images/email.gif';
+import email from '../../images/mail.gif';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import HeaderIndex from '../../components/HeaderIndex';
