@@ -743,6 +743,7 @@ form button {
   }
 
   .header-main {
+    flex-direction: column;
     justify-content: space-around;
   }
 
