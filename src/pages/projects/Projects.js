@@ -38,7 +38,7 @@ function Projects() {
 
           <Artwork
             title="(H)ued Pathways"
-            description="(H)ued Pathways faz parte de um projeto gênesis do Hodlers Collective."
+            description="(H)ued Pathways is part of the genesis project of the Hodlers Collective."
             imageUrl={hodlers}
             link="https://opensea.io/assets/ethereum/0xeac5e94c543ce2211b695bd69bd0d5ff3c4a21e1/25"
             supply="1/1"
