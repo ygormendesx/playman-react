@@ -69,7 +69,7 @@ function Projects() {
 
           <Artwork
             title="Sunset Symphony1"
-            description="Sunset Symphony 001 é a primeira de uma coleção de três obras de arte únicas que traz como tema principal a sinfonia vibrante do por do sol em arte abstrata."
+            description="Sunset Symphony 001 is the first of a collection of three unique artworks that features the vibrant sunset symphony as its main theme in abstract art."
             imageUrl={ss1}
             link="https://exchange.art/single/FcEq5SxcpYTddvHNG2DvDg3jhWTnExGDJngHDTFcYpjf"
             supply="1/1"
@@ -77,7 +77,7 @@ function Projects() {
 
           <Artwork
             title="Sunset Symphony2"
-            description="Sunset Symphony 002 é a segunda de uma coleção de três obras de arte únicas que traz como tema principal a sinfonia vibrante do por do sol em arte abstrata."
+            description="Sunset Symphony 002 is the second of a collection of three unique artworks that features the vibrant sunset symphony as its main theme in abstract art."
             imageUrl={ss2}
             link="https://exchange.art/single/hDy7kKPsk2HqhgRANT2Tso6pTHz7nLWLGZ7EogcM6bH"
             supply="1/1"
@@ -85,7 +85,7 @@ function Projects() {
 
           <Artwork
             title="Sunset Symphony3"
-            description="Sunset Symphony 003 é a terceira de uma coleção de três obras de arte únicas que traz como tema principal a sinfonia vibrante do por do sol em arte abstrata."
+            description="Sunset Symphony 003 is the third of a collection of three unique artworks that features the vibrant sunset symphony as its main theme in abstract art."
             imageUrl={ss3}
             link="https://exchange.art/single/4CgACx4CbfDSEmfCkkkRJdmoWM7aDsuaYa7kG76Jysz5"
             supply="1/1"
